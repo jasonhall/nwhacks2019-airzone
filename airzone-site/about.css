@@ -1,0 +1,51 @@
+body {
+  background-color: lightsteelblue;
+  color: #303030;
+  font-family: 'Times New Roman';
+  font-size: 15px;
+  margin: 10px;
+}
+
+main {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 12px #c8c8c8;
+  margin: 10px auto;
+  max-width: 450px;
+  padding: 10px;
+}
+
+ol {
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding: 0;
+}
+
+form {
+  background-color: lightsteelblue;
+  border-radius: 6px;
+  margin: 0;
+  padding: 10px;
+}
+
+button {
+  background-color: cornflowerblue;
+  border: solid;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.history{
+  text-align: center;
+  position: absolute;
+}
+
+#message {
+  width: 315px;
+  border-style: groove;
+}

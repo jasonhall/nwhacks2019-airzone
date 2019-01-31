@@ -1,0 +1,180 @@
+
+body, #nav .nav_icon {
+	background: white;
+	font-family: 'Times New Roman';
+	font-size: 13px;
+	height: 13px;
+	}
+
+p {
+	margin-top: 0;
+}
+
+a {
+	margin-top: 0;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	margin: 0 0 5px;
+}
+
+h2 {
+	margin-left: 0px;
+}
+#container {
+	width: 100%;
+	height: auto;
+	//margin: 0px auto;
+}
+
+#container_width {
+	width: 97%;
+	height: auto;
+	margin: 0px auto;
+	position: relative;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -30px;
+    visibility: hidden;
+}
+
+#nav, #nav a, #nav a:hover, .dropdown-content a {
+	padding: 10px 10px;
+	color: white;
+}
+
+#nav {
+	top: 0;
+	left: 0;
+	text-align: right;
+	z-index: 10;
+	width: 100%;
+	padding-left: 0%;
+	color: #black;
+	background-color: #df6950;
+	border-bottom-style: solid;
+	border-bottom-color: #white;
+	border-bottom-width: 1px;
+}
+#nav a:hover, .dropdown-content a:hover {
+	background-color:  #FFF0D2;
+	color: black;
+	border-radius: 8px;
+}
+
+#nav .nav_icon {
+	//height: 13px;
+	vertical-align: middle;
+}
+
+#about, #one, #two, #three, #four, #contact {
+	padding: 20px;
+}
+
+button {
+	//overflow: visble;
+	//transform: rotate(270deg);
+	//margin: -50px;
+}
+
+.content {
+  display: none;
+}
+
+#about {
+	background-image: url("pollution.jpg"); /* The image used - important! */
+	background-size: cover;
+	position: relative; /* Needed to position the cutout text in the middle of the image */
+	height: 200px; /* Some height */
+}
+
+.text2 {
+	 background-color: black;
+	 color: white;
+	 font-size: 40; /* Responsive font size */
+	 font-family: Comic;
+	 font-weight: bolder;
+	 margin: 0 auto; /* Center the text container */
+	 padding: 0px;
+	 width: 50%;
+	 text-align: center; /* Center text */
+	 position: absolute; /* Position text */
+	 top: 50%; /* Position text in the middle */
+	 left: 50%; /* Position text in the middle */
+	 transform: translate(-50%, -50%); /* Position text in the middle */
+	 mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+#one {
+	background-color: #e0e0e0;
+}
+#two {
+	background-color: #e0e0e0;
+}
+#three {
+	background-color: #e0e0e0;
+}
+#four {
+	background-color: #e0e0e0;
+}
+
+div #box{
+    width: 50%;
+    height: 50%;
+    float: lefts;
+	//padding: 10px;
+}
+
+div #box:nth-of-type(1) {
+    background: #ccc;
+}
+
+div #box:nth-of-type(2) {
+    background: #bbb;
+    border-left: 1px solid #f00;
+}
+
+div #box:nth-of-type(3) {
+    background: #aaa;
+    border-top: 1px solid #f00;
+}
+
+div #box:nth-of-type(4) {
+    background: #ddd;
+    border-top: 1px solid #f00;
+    border-left: 1px solid #f00;
+}
+
+div #contact {
+	  background-image: url("pollution.jpg"); /* The image used - important! */
+	  background-size: cover;
+	  position: relative; /* Needed to position the cutout text in the middle of the image */
+	  height: 120px; /* Some height */
+}
+
+.text {
+	  color: black;
+	  font-size: 15; /* Responsive font size */
+		font-family: Helvetica;
+	  font-weight: bolder;
+	  margin: 0 auto; /* Center the text container */
+	  padding: 0px;
+	  width: 50%;
+	  text-align: center; /* Center text */
+	  position: absolute; /* Position text */
+	  top: 50%; /* Position text in the middle */
+	  left: 50%; /* Position text in the middle */
+	  transform: translate(-50%, -50%); /* Position text in the middle */
+	  mix-blend-mode: multiply;; /* This makes the cutout text possible */
+}
+
+#footer {
+	color: white;
+	clear: both;
+	text-align: center;
+	font-size: 10px;
+}

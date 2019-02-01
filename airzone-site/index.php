@@ -51,7 +51,7 @@
         $sql = "SELECT date, co FROM daily WHERE date >= '2018-12-01'";
         $cmp = 'co';
         $title = 'Carbon Monoxide Levels in Kelowna';
-        $axis = 'Carbon Monoxide Concentration (ppm)';
+        $axis = 'Carbon Monoxide Concentration (ppb)';
         $chart = 'chart_div4';
         echo make_chart($cmp, $sql, $title, $axis, $chart);
         ?>
